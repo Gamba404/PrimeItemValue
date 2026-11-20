@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"compatibilityLevel": "JAVA_25",
+	"package": "net.primeblocks.itemvalue.mixin",
+	"client": [
+		"ContainerGeometryAccessor",
+		"KeyboardHandlerMixin",
+		"PlayerTabOverlayAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

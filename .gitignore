@@ -1,0 +1,45 @@
+# Build output and local caches
+.gradle/
+build/
+out/
+bin/
+*.class
+
+# Development client and local dumps
+run/
+primerelics-dumps/
+logs/
+crash-reports/
+*.log
+
+# Editor settings
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.mcp.json
+*.jks
+*.keystore
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.orig
+*.rej
+*~

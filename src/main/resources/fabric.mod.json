@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "primeitemvalue",
+	"version": "${version}",
+	"name": "PrimeItemValue",
+	"description": "Zeigt neben dem Inventar alle Custom- und Vanilla-Items mit Suche und blendet den Itemwert in den Tooltip ein. Nur für PrimeBlocks.",
+	"authors": [
+		"BIG_Gamba"
+	],
+	"contact": {
+		"homepage": "https://wiki.primeblocks.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/primeitemvalue/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.primeblocks.itemvalue.PrimeItemValueClient"
+		]
+	},
+	"mixins": [
+		"primeitemvalue.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"fabric-api": "*",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}

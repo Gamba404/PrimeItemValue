@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a problem with the mod.
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Include Minecraft, Fabric Loader, Fabric API and mod versions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the screen, item and CityBuild involved.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots and logs
+      description: Remove personal information before sharing logs.
